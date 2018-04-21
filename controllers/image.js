@@ -6,7 +6,7 @@ const app = new Clarifai.App({
 
 const handleApiCall= (req,res) =>{
 
-	if(!req.body.inputUrl)
+	/*if(!req.body.inputUrl)
 	{
 		return res.status(400).json({ 
 			info: 'No URL detected',
@@ -14,14 +14,14 @@ const handleApiCall= (req,res) =>{
 				code: 400
 			}
 		});
-	}else{
+	}else{*/
 		//Face Recognition magic happens here
 	    app.models.predict(Clarifai.FACE_DETECT_MODEL, req.body.inputUrl)
 	    	.then(data => {
 	    		res.json(data);
 	    	})
 	    	.catch(err => res.status(400).json('error reaching the api'));
-	}
+	//}
 }    
 
 const updateEntryCount = (db) => (req, res) =>{
