@@ -23,6 +23,6 @@ Project was build while learning at
 		* For further installtion for node.js implementation see [knexJs installation on node](http://knexjs.org/#Installation-node)
 
 
-For further information about the Front End look at [smartRaptorApi](https://github.com/r4pt0s/smart-raptor).	
+For further information about the Front End look at [smart-raptor](https://github.com/r4pt0s/smart-raptor).	
 
 Look at [Working demo](https://smart-raptor.herokuapp.com/) deployed at [Heroku](https://www.heroku.com).
