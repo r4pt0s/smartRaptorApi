@@ -1,7 +1,5 @@
 # Smart Raptor face detection API
 
-Project was build while learning at 
-[Udemy:The Complete Web Developer in 2018: Zero to Mastery](https://www.udemy.com/the-complete-web-developer-in-2018/learn/v4/overview)
 
 ## Used server side techniques
 * [NodeJs](https://nodejs.org/en/) 
